@@ -1,0 +1,49 @@
+.skillhandler {
+  position: relative;
+  left:10%;
+  margin: 20px 20% 0 0;
+  /* margin-top: 20px;
+  margin-right: 20%; */
+  width: 40%;
+  height: 2%;
+  /* border-radius: 10px; */
+  background: #E4E9FD;
+}
+
+.skilltext {
+  opacity: 0.1;
+  margin-bottom: 0;
+  font-size: 0.6rem;
+}
+
+.skillname {
+  margin: 14px 0 0 20%;
+  white-space: nowrap;
+  /* margin-top: 20px; */
+  /* margin-left: auto ; */
+}
+
+.skill1 {
+  width: 80%;
+  background-color: #A683E3;
+}
+
+.skill2 {
+  width: 75%;
+  background-color: #A683E3;
+}
+
+.skill3 {
+  width: 65%;
+  background-color: #A683E3;
+}
+
+.skill4 {
+  width: 70%;
+  background-color: #A683E3;
+}
+
+.skill5 {
+  width: 65%;
+  background-color: #A683E3;
+}
