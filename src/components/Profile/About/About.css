@@ -1,0 +1,18 @@
+.about {
+  background: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  padding: 10%;
+}
+
+.aboutdiv {
+  text-align: center;
+}
+
+.aboutheading {
+  font-size: 2.5rem;
+}
+
+.aboutpara {
+  font-size: 1.1rem;
+  width: 60%;
+  margin-left: 17%;
+}
