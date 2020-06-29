@@ -1,0 +1,21 @@
+.projectdiv {
+  text-align: center;
+}
+
+.projectheading {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.projectbox {
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 20%;
+  border: 1px solid #eee;
+  /* display: grid; */
+}
+
+.projectimg {
+  width: 100%;
+}
