@@ -8,14 +8,52 @@
   margin-bottom: 30px;
 }
 
+.ProjectResponsive {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .projectbox {
-  margin-left: 10%;
-  margin-bottom: 10%;
-  width: 20%;
+  margin-left: 9%;
+  margin-bottom: 3%;
+  width: 22%;
+  /* margin-right: 3%; */
   border: 1px solid #eee;
   /* display: grid; */
 }
 
 .projectimg {
   width: 100%;
+}
+
+.projectbox img {
+  /* border-radius: 8px; */
+  margin-bottom: 8px;
+  opacity: 0.9;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.projectimg:hover {
+  transform: scale(1.1);
+  /* transform: rotateX(45deg); */
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+}
+
+@media (max-width:800px) {
+
+  .projectbox {
+    /* margin-left: 2%; */
+    width: 80%;
+    /* margin-right: 5%; */
+  }
+
+  .ProjectResponsive {
+    flex-direction: column;
+  }
 }
