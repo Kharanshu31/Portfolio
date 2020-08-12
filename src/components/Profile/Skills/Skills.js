@@ -6,51 +6,43 @@ function Skills() {
   return (
     <div style={{textAlign: 'center'}}>
       <h1  style={{marginTop: "50px"}}>Skills</h1>
-      <div style={{display: "flex",marginTop: "15px"}}>
+      <div style={{display: 'flex',flexDirection: 'row'}}>
+
+      <div style={{textAlign: 'justify',width: '40%'}}>
+
         <p className="skillname">HTML & CSS</p>
-        <div className="skillhandler">
-          <div className="skill1">
-              <p className="skilltext">hi</p>
-          </div>
-        </div>
-      </div>
-
-      <div style={{display: "flex",marginTop: "15px"}}>
+        <p className="skillname">JavaScript</p>
         <p className="skillname">ReactJs</p>
-        <div className="skillhandler">
-          <div className="skill2">
-              <p className="skilltext">hi</p>
-          </div>
-        </div>
-      </div>
-
-      <div style={{display: "flex",marginTop: "15px"}}>
-        <p className="skillname">Javascript</p>
-        <div className="skillhandler">
-          <div className="skill3">
-              <p className="skilltext">hi</p>
-          </div>
-        </div>
-      </div>
-
-      <div style={{display: "flex",marginTop: "15px"}}>
         <p className="skillname">Node.js/Express.js</p>
-        <div className="skillhandler">
-          <div className="skill4">
-              <p className="skilltext">hi</p>
-          </div>
-        </div>
-      </div>
-
-      <div style={{display: "flex",marginTop: "15px"}}>
         <p className="skillname">MongoDB</p>
-        <div className="skillhandler">
-          <div className="skill5">
-              <p className="skilltext">hi</p>
-          </div>
-        </div>
+
       </div>
 
+      <div style={{width: '50%'}}>
+
+      <div className="progress proReact" style={{width: "75%"}}>
+        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "82%"}}></div>
+      </div>
+
+      <div className="progress proReact" style={{width: "75%"}}>
+        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "85%"}}></div>
+      </div>
+
+      <div className="progress proReact" style={{width: "75%"}}>
+        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "80%"}}></div>
+      </div>
+
+      <div className="progress proReact" style={{width: "75%"}}>
+        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "78%"}}></div>
+      </div>
+
+      <div className="progress proReact" style={{width: "75%"}}>
+        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "80%"}}></div>
+      </div>
+
+      </div>
+
+      </div>
     </div>
   );
 }

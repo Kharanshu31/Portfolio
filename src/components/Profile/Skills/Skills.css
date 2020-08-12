@@ -1,13 +1,17 @@
 .skillhandler {
   position: relative;
   left:10%;
-  margin: 20px 20% 0 0;
-  /* margin-top: 20px;
-  margin-right: 20%; */
+
+  margin-top: 20px;
   width: 40%;
   height: 2%;
-  /* border-radius: 10px; */
+
   background: #E4E9FD;
+}
+
+.proReact {
+  margin-left: 12.5%;
+  margin-top: 22px;
 }
 
 .skilltext {
@@ -17,13 +21,27 @@
 }
 
 .skillname {
-  margin: 14px 0 0 20%;
+  /* margin: 14px 0 0 50%; */
+  margin-left: auto;
+  position: relative;
+  top: 14px;
+  left: 80%;
   white-space: nowrap;
   /* margin-top: 20px; */
   /* margin-left: auto ; */
 }
 
-.skill1 {
+.proReact {
+  /* transition: 1.4s ease-in-out; */
+  /* background-color: black!important; */
+}
+
+.progress-bar {
+  background-color: #A683E3!important;
+  border-radius: 18px;
+}
+
+/* .skill1 {
   width: 80%;
   background-color: #A683E3;
 }
@@ -46,4 +64,10 @@
 .skill5 {
   width: 65%;
   background-color: #A683E3;
+} */
+
+@media (max-width:800px) {
+  .skillname {
+    left: 10%;
+  }
 }
