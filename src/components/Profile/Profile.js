@@ -3,6 +3,7 @@ import React from 'react';
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
+import Experience from "./Experience/Experience"
 
 function Profile() {
   return (
@@ -10,6 +11,7 @@ function Profile() {
       <About />
       <Skills />
       <Projects />
+      <Experience />
     </div>
   );
 }
