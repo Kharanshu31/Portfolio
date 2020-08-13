@@ -1,0 +1,79 @@
+.ExpEduBody {
+  text-align: center;
+  background-color: #eee;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.ButtonDiv {
+  margin-left: auto;
+  margin-top: 2%;
+}
+
+.Expbtn {
+  margin-right: 5%;
+}
+
+.ExpDiv {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Timeline {
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.Timeline2 {
+  margin-left: 35.98%;
+  margin-top: 20px;
+}
+
+.Timeline3 {
+  margin-left: 41.5%;
+  margin-top: 20px;
+  /* padding-top: 30px; */
+}
+
+.LineBox {
+  width: 5px;
+  background-color: #C0C0C0;
+  opacity: 0.9;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 4%;
+}
+
+.LineCircle {
+  /* min-height: 1px;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  padding-left: 3px;
+  padding-right: 3px; */
+  position: relative;
+  top: 20%;
+  border: none;
+  padding-left: 1px;
+  min-height: 40px;
+  background: white;
+}
+.LineCircle2 {
+  /* min-height: 1px;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  padding-left: 3px;
+  padding-right: 3px; */
+  position: relative;
+  top: 40%;
+  border: none;
+  padding-right: 1px;
+  min-height: 40px;
+  background: white;
+}
+
+.ExpHeading {
+  margin-top: 15px;
+}
