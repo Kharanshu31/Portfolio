@@ -4,8 +4,8 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div style={{textAlign: 'center'}}>
-      <h1  style={{marginTop: "50px"}}>Skills</h1>
+    <div className="skillBody" style={{textAlign: 'center'}}>
+      <h1>Skills</h1>
       <div style={{display: 'flex',flexDirection: 'row'}}>
 
       <div style={{textAlign: 'justify',width: '40%'}}>

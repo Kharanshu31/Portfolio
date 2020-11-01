@@ -1,6 +1,7 @@
 .ExpEduBody {
   text-align: center;
-  background-color: #E0FFFF;
+  /* background-color: #E0FFFF; */
+  background-color: #eee;
   padding-top: 5%;
   padding-bottom: 5%;
 }

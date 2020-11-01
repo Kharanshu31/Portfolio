@@ -1,9 +1,12 @@
 .projectdiv {
   text-align: center;
+  background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("https://d57439wlqx3vo.cloudfront.net/iblock/577/57718e3f9374256923aa4382c5bcc673/b73ee98a70e1ecefb77b4996f067a2fa.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 6%;
 }
 
 .projectheading {
-  margin-top: 50px;
   font-size: 2.5rem;
   margin-bottom: 30px;
 }

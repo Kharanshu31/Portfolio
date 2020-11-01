@@ -1,3 +1,10 @@
+.skillBody {
+  background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("https://www.helpscout.com/images/blog/2018/feb/customer-service-skills.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 7%;
+}
+
 .skillhandler {
   position: relative;
   left:10%;
@@ -27,6 +34,7 @@
   top: 14px;
   left: 80%;
   white-space: nowrap;
+  font-weight: bold;
   /* margin-top: 20px; */
   /* margin-left: auto ; */
 }
