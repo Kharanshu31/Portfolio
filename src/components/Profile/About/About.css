@@ -1,6 +1,9 @@
 .about {
   /* background: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
-  background-color: #eee;
+  /* background-color: #eee; */
+  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("https://previews.123rf.com/images/sommersby/sommersby1908/sommersby190800026/129073448-thin-line-hacker-or-coder-icon-on-a-grey-background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   padding: 10%;
 }
 
@@ -11,12 +14,14 @@
 .aboutheading {
   font-size: 2.5rem;
   margin-left: -25px;
+  font-weight: bolder;
 }
 
 .aboutpara {
   font-size: 1.1rem;
   width: 60%;
   margin-left: 17%;
+  font-weight: bolder;
 }
 
 @media (max-width:700px) {
