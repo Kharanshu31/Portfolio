@@ -5,6 +5,14 @@
   padding: 7%;
 }
 
+.skilldiv {
+  flex-direction: row;
+}
+
+.downward {
+  margin-top: 10%;
+}
+
 .skillhandler {
   position: relative;
   left:10%;
@@ -32,6 +40,7 @@
   position: relative;
   top: 14px;
   margin-bottom: 15px;
+  font-size: 20px;
   white-space: nowrap;
   font-weight: bold;
   /* margin-top: 20px; */
@@ -78,7 +87,8 @@
 }
 
 @media (max-width:800px) {
-  .skillname {
-    left: 10%;
+
+  .skilldiv {
+    flex-direction: column;
   }
 }

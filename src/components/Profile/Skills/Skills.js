@@ -8,14 +8,14 @@ function Skills() {
   return (
     <div className="skillBody" style={{textAlign: 'center'}}>
       <h1>Skills</h1>
-      <div style={{display: 'flex'}}>
+      <div className="skilldiv" style={{display: 'flex'}}>
 
         <div>
           <p className="skillname">HTML & CSS</p>
           <CircularProgressbar value={80} text='80%'/>
         </div>
 
-        <div>
+        <div className="downward">
           <p className="skillname">JavaScript</p>
           <CircularProgressbar value={78} text='78%'/>
         </div>
@@ -25,7 +25,7 @@ function Skills() {
           <CircularProgressbar value={90} text='90%' />
         </div>
 
-        <div>
+        <div className="downward">
           <p className="skillname">Node.js/Express.js</p>
           <CircularProgressbar value={75} text='75%' />
         </div>
