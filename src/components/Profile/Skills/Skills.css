@@ -29,10 +29,9 @@
 
 .skillname {
   /* margin: 14px 0 0 50%; */
-  margin-left: auto;
   position: relative;
   top: 14px;
-  left: 80%;
+  margin-bottom: 15px;
   white-space: nowrap;
   font-weight: bold;
   /* margin-top: 20px; */
@@ -73,6 +72,10 @@
   width: 65%;
   background-color: #A683E3;
 } */
+
+.CircularProgressbar {
+  width: 40%;
+}
 
 @media (max-width:800px) {
   .skillname {

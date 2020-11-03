@@ -1,46 +1,39 @@
 import React from 'react';
 // import {Link,withRouter} from "react-router-dom";
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import "./Skills.css";
 
 function Skills() {
   return (
     <div className="skillBody" style={{textAlign: 'center'}}>
       <h1>Skills</h1>
-      <div style={{display: 'flex',flexDirection: 'row'}}>
+      <div style={{display: 'flex'}}>
 
-      <div style={{textAlign: 'justify',width: '40%'}}>
+        <div>
+          <p className="skillname">HTML & CSS</p>
+          <CircularProgressbar value={80} text='80%'/>
+        </div>
 
-        <p className="skillname">HTML & CSS</p>
-        <p className="skillname">JavaScript</p>
-        <p className="skillname">ReactJs</p>
-        <p className="skillname">Node.js/Express.js</p>
-        <p className="skillname">MongoDB</p>
+        <div>
+          <p className="skillname">JavaScript</p>
+          <CircularProgressbar value={78} text='78%'/>
+        </div>
 
-      </div>
+        <div>
+          <p className="skillname">ReactJs</p>
+          <CircularProgressbar value={90} text='90%' />
+        </div>
 
-      <div style={{width: '50%'}}>
+        <div>
+          <p className="skillname">Node.js/Express.js</p>
+          <CircularProgressbar value={75} text='75%' />
+        </div>
 
-      <div className="progress proReact" style={{width: "75%"}}>
-        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "82%"}}></div>
-      </div>
-
-      <div className="progress proReact" style={{width: "75%"}}>
-        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "85%"}}></div>
-      </div>
-
-      <div className="progress proReact" style={{width: "75%"}}>
-        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "80%"}}></div>
-      </div>
-
-      <div className="progress proReact" style={{width: "75%"}}>
-        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "78%"}}></div>
-      </div>
-
-      <div className="progress proReact" style={{width: "75%"}}>
-        <div class="progress-bar progress-bar-striped progress-bar-animated proTransition" role="progressbar" style={{width: "80%"}}></div>
-      </div>
-
-      </div>
+        <div>
+          <p className="skillname">Tensorflow Js</p>
+          <CircularProgressbar value={60} text='60%' />
+        </div>
 
       </div>
     </div>
