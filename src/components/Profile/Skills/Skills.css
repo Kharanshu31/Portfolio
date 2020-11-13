@@ -88,6 +88,10 @@
 
 @media (max-width:800px) {
 
+  .downward {
+    margin-top: 0;
+  }
+
   .skilldiv {
     flex-direction: column;
   }
