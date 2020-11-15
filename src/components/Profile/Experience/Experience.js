@@ -12,6 +12,8 @@ function Experience() {
       <h1>Experience & Education</h1>
       </div>
 
+    <div className="ExpContent">
+
       <div className="ButtonDiv">
       <button className="btn btn-success Expbtn" onClick={()=>setShowEducation(false)}>Experience</button>
       <button className="btn btn-warning Edubtn" onClick={()=>setShowEducation(true)}>Education</button>
@@ -27,28 +29,21 @@ function Experience() {
 
         </div>
       ) : (
-        <div>
 
         <div className="ExpDiv">
 
-          <p className="Timeline">July-2020 to August-2020</p>
-
-          <div className="LineBox">
-            {/*<span className="LineCircle"><span style={{fontSize: '0.1rem',visibility:'hidden'}}>o</span></span>*/}
-            <span className="LineCircle">&nbsp;</span>
-          </div>
-
-          <div>
-            <h3 className="ExpHeading">Chattel Technologies</h3>
-            <p className="ExpDesc">MERN Stack Web Developer</p>
-          </div>
-
+        <div>
+          <h5>Chattel Technologies</h5>
+          <p>July 2020-August 2020</p>
         </div>
 
         </div>
+
       ) }
 
     </div>
+
+  </div>
   );
 }
 
