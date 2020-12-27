@@ -1,14 +1,14 @@
 .landing {
   background-image: url("../../assets/portfolio.jpg");
   background-size: 100% 100%;
-  padding: 22%;
+  padding: 13% 22% 20% 22%;
   background-repeat: no-repeat;
 }
 
 .heading {
   color: white;
   font-size: 5rem;
-  margin-left: 15%;
+  margin-left: 16%;
   margin-top: -5%;
   display: inline-block;
   overflow: hidden;
@@ -42,9 +42,14 @@
 }
 
 @media (max-width:700px) {
+
+  .landing{
+    padding: 50% 15% 60% 10%;
+  }
+
   .heading {
     font-size: 1.2rem;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-top: 5%;
   }
 
