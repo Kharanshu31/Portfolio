@@ -22,11 +22,17 @@
   width: 60%;
   margin-left: 17%;
   font-weight: bolder;
+  text-align: center;
 }
 
 @media (max-width:700px) {
+  .aboutheading {
+    margin-left: 15px;
+  }
+
   .aboutpara {
     width: 100%;
     margin-left: 3%;
+    text-align: justify;
   }
 }
