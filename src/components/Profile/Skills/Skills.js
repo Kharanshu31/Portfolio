@@ -1,6 +1,6 @@
 import React from 'react';
 // import {Link,withRouter} from "react-router-dom";
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import "./Skills.css";
 
@@ -17,7 +17,7 @@ function Skills() {
 
         <div className="downward">
           <p className="skillname">JavaScript</p>
-          <CircularProgressbar value={78} text='78%'/>
+          <CircularProgressbar value={80} text='80%'/>
         </div>
 
         <div>

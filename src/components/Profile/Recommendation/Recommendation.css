@@ -1,0 +1,42 @@
+.RecommendationDiv {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("https://cdn.admissiontable.com/wp-content/uploads/ebook_lor.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.rec-body {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 2%;
+  margin-left: 10%;
+  border: 2px solid #eee;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.recimgDiv {
+  /* margin-right: 0; */
+  width: 20%;
+}
+.rec-img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.rec-para {
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+@media (max-width:800px) {
+  .rec-body {
+    flex-direction: column;
+  }
+
+  .recimgDiv {
+    width: 50%;
+  }
+}

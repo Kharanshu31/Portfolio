@@ -1,10 +1,10 @@
 import React,{useState} from 'react';
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import './Experience.css';
 
 function Experience() {
 
-  const [showEducation,setShowEducation]=useState(true)
+  const [showEducation,setShowEducation]=useState(false)
 
   return (
     <div className="ExpEduBody">

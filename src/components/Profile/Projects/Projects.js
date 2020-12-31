@@ -28,7 +28,7 @@ function Projects() {
         <div className="projectbox">
           <Flip img1={elocal1} img2={elocal2}/>
           <a href="https://kharanshu31.github.io/elocalProject/#/" className="projectlink"><span>E Local</span></a>
-          <p className="projectinfo">Online Shipping Website which offers wide range of products</p>
+          <p className="projectinfo">A Frontend page for Mobile Shipping Website and Seller Info as well</p>
         </div>
 
       </div>

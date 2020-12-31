@@ -22,7 +22,8 @@
   margin-bottom: 3%;
   width: 27%;
   margin-right: 10%;
-  border: 0.5px solid grey;
+  border: 2px solid #eee;
+  /* box-shadow: 5px 5px 5px 5px #aaaaaa; */
   /* display: grid; */
 }
 
@@ -31,7 +32,8 @@
 }
 
 .projectinfo {
-  font-weight: 400;
+  font-weight: 600;
+  padding: 2px;
 }
 
 .projectimg {
